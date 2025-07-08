@@ -1,124 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>S.A. Caterers | Hyderabad</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background-color: #fffdf9;
-      color: #333;
-    }
-
-    header {
-      background: #800000;
-      color: white;
-      padding: 1rem 2rem;
-      text-align: center;
-    }
-
-    nav {
-      margin-top: 1rem;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .hero {
-      background: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c') no-repeat center center/cover;
-      color: white;
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-
-    .section {
-      padding: 3rem 2rem;
-      max-width: 960px;
-      margin: auto;
-    }
-
-    .services {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      justify-content: space-around;
-    }
-
-    .card {
-      background: #fff;
-      border: 1px solid #ddd;
-      padding: 1rem;
-      border-radius: 8px;
-      flex: 1 1 250px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background: #f1f1f1;
-      color: #555;
-    }
-
-    @media (max-width: 600px) {
-      .services {
-        flex-direction: column;
-      }
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SA Caterers Hyderabad</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <h1>S.A. Caterers</h1>
-    <p>Authentic Catering Services in Hyderabad</p>
-    <nav>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<header>
+  <nav class="navbar">
+    <div class="logo">SA Caterers</div>
+    <ul class="nav-links">
+      <li><a href="#photos">Photos</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#feedback">Feedback</a></li>
+      <li><a href="#facts">Facts</a></li>
+    </ul>
+  </nav>
+</header>
 
+<main>
   <section class="hero">
-    <h2>Making Your Occasions Delicious</h2>
-    <p>Weddings, Corporate Events, Parties & More</p>
+    <div class="hero-content">
+      <h1>Delicious Catering Services in Hyderabad</h1>
+      <p>Making your events memorable with exquisite flavors</p>
+    </div>
   </section>
 
-  <section class="section" id="services">
-    <h2>Our Services</h2>
-    <div class="services">
+  <section id="photos" class="section fade-in">
+    <h2>Our Food Gallery</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Food 1" />
+        <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=600&q=80" alt="Food 2" />
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Food 3" />
+        <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=600&q=80" alt="Food 4" />
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Food 1" />
+        <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=600&q=80" alt="Food 2" />
+      </div>
+      
+  </section>
+
+  <section id="videos" class="section fade-in">
+    <h2>Event Videos</h2>
+    <div class="video-gallery">
+      <iframe width="320" height="180" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="Video 1" allowfullscreen></iframe>
+      <iframe width="320" height="180" src="https://www.youtube.com/embed/FWAdfuPpLOc?si=CcyDUV1fXQWjgrer" title="Video 2" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="feedback" class="section fade-in">
+    <h2>Customer Feedback</h2>
+    <div class="feedback-cards">
       <div class="card">
-        <h3>Wedding Catering</h3>
-        <p>Traditional Hyderabadi dishes served with elegance.</p>
+        <p>"Amazing food and service! Highly recommended."</p>
+        <h4>- Priya S.</h4>
       </div>
       <div class="card">
-        <h3>Corporate Events</h3>
-        <p>Professional and timely service for all business needs.</p>
+        <p>"Made our wedding unforgettable. The team was professional."</p>
+        <h4>- Rahul K.</h4>
       </div>
       <div class="card">
-        <h3>Home Functions</h3>
-        <p>From small gatherings to big celebrations at home.</p>
+        <p>"Delicious variety and prompt delivery. Will book again."</p>
+        <h4>- Anjali M.</h4>
       </div>
     </div>
   </section>
 
-  <section class="section" id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Email:</strong> sacaterershyd@gmail.com</p>
-    <p><strong>Phone:</strong> +91 90000 00000</p>
-    <p><strong>Location:</strong> Hyderabad, Telangana</p>
+  <section id="facts" class="section facts-section fade-in">
+    <h2>Did You Know?</h2>
+    <ul class="facts-list">
+      <li>We have catered over 500+ events in Hyderabad.</li>
+      <li>Our chefs use locally sourced fresh ingredients.</li>
+      <li>We offer customizable menus for all dietary needs.</li>
+      <li>Customer satisfaction rate over 98%.</li>
+    </ul>
   </section>
+  <section class="quote-section">
+    <h2>Get Your Catering Quote</h2>
+    <p>Enter your email and we'll send you a personalized quote for your event.</p>
+    <form id="quoteForm">
+      <input type="email" name="email" placeholder="Your email address" required />
+      <button type="submit">Request Quote</button>
+    </form>
+    <p id="formMessage" class="form-message"></p>
+  </section>
+  
+</main>
 
-  <footer>
-    <p>&copy; 2025 S.A. Caterers. All rights reserved.</p>
-  </footer>
+<footer>
+  &copy; 2025 SA Caterers Hyderabad. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
