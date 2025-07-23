@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SA Caterers Hyderabad</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -31,16 +31,23 @@
   <section id="photos" class="section fade-in">
     <h2>Our Food Gallery</h2>
     <div class="gallery">
-        <img src="./images/haleem.jpeg" alt="Food 1" />
-        <img src="./images/biryani.jpeg" alt="Food 2" />
-        <img src="./images/red-chicken.jpeg" alt="Food 3" />
-        <img src="./images/dessert.jpeg" alt="Food 4" style="width: 400px; height: 200px; object-fit: cover;" />
-        <img src="./images/platter.jpeg" alt="Food 5" style="width: 400px; height: 200px; object-fit: cover;" />
-        <img src="./images/platter-2.jpeg" alt="Food 6" style="width: 400px; height: 200px; object-fit: cover;" />
-        <img src="./images/dessert.jpeg" alt="Food 4" style="width: 400px; height: 200px; object-fit: cover;" />
-        <img src="./images/platter.jpeg" alt="Food 5" style="width: 400px; height: 200px; object-fit: cover;" />
-        <img src="./images/platter-2.jpeg" alt="Food 6" style="width: 400px; height: 200px; object-fit: cover;" />
-      </div>
+      <!-- Smaller fixed images -->
+      <img src="./images/dessert.jpeg" alt="Dessert" class="small-img" />
+      <img src="./images/platter.jpeg" alt="Platter" class="small-img" />
+      <img src="./images/platter-2.jpeg" alt="Platter 2" class="small-img" />
+    
+      <!-- Large featured images -->
+      <img src="./images/haleem.jpeg" alt="Haleem" class="large-img" />
+      <img src="./images/biryani.jpeg" alt="Biryani" class="large-img" />
+      <img src="./images/red-chicken.jpeg" alt="Red Chicken" class="large-img" />
+    
+      <!-- Repeating small ones -->
+      <img src="./images/dessert.jpeg" alt="Dessert" class="small-img" />
+      <img src="./images/platter.jpeg" alt="Platter" class="small-img" />
+      <img src="./images/platter-2.jpeg" alt="Platter 2" class="small-img" />
+    </div>
+    
+    
       
   </section>
 
@@ -51,43 +58,46 @@
 
     </div>
   </section>
-
   <section id="feedback" class="section fade-in">
     <h2>Customer Feedback</h2>
     <div class="feedback-cards">
       <div class="card">
-        <p>"Amazing food and service! Highly recommended."</p>
+        <p>"Amazing food and service! Highly recommended. Made our wedding unforgettable. The team was professional."</p>
         <h4>- Priya S.</h4>
       </div>
       <div class="card">
-        <p>"Made our wedding unforgettable. The team was professional."</p>
+        <p>"Made our wedding unforgettable. The team was professional. Amazing food and service! Highly recommended."</p>
         <h4>- Rahul K.</h4>
       </div>
       <div class="card">
-        <p>"Delicious variety and prompt delivery. Will book again."</p>
+        <p>"Delicious variety and prompt delivery. Will book again. Amazing food and service! Highly recommended."</p>
         <h4>- Anjali M.</h4>
       </div>
     </div>
   </section>
 
-  <section id="facts" class="section facts-section fade-in">
-    <h2>Did You Know?</h2>
-    <ul class="facts-list">
-      <li>We have catered over 500+ events in Hyderabad.</li>
-      <li>Our chefs use locally sourced fresh ingredients.</li>
-      <li>We offer customizable menus for all dietary needs.</li>
-      <li>Customer satisfaction rate over 98%.</li>
-    </ul>
-  </section>
-  <section class="quote-section">
-    <h2>Get Your Catering Quote</h2>
-    <p>Enter your email and we'll send you a personalized quote for your event.</p>
-    <form id="quoteForm">
-      <input type="email" name="email" placeholder="Your email address" required />
-      <button type="submit">Request Quote</button>
-    </form>
-    <p id="formMessage" class="form-message"></p>
-  </section>
+  <div class="bottom-sections">
+    <section id="facts" class="section facts-section fade-in">
+      <h2>Did You Know?</h2>
+      <ul class="facts-list">
+        <li>We have catered over 500+ events in Hyderabad.</li>
+        <li>Our chefs use locally sourced fresh ingredients.</li>
+        <li>We offer customizable menus for all dietary needs.</li>
+        <li>Customer satisfaction rate over 98%.</li>
+      </ul>
+    </section>
+  
+    <section class="quote-section">
+      <h2>Get Your Catering Quote</h2>
+      <p>Enter your email and we'll send you a personalized quote for your event.</p>
+      <form id="quoteForm">
+        <input type="email" name="email" placeholder="Your email address" required />
+        <button type="submit">Request Quote</button>
+      </form>
+      <p id="formMessage" class="form-message"></p>
+    </section>
+  </div>
+  
   
 </main>
 
@@ -108,13 +118,13 @@
       <div class="social-media">
         <h3>Follow Us</h3>
         <a href="https://www.facebook.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-          <img src="./icons/facebook.svg" alt="Facebook" />
+          <img src="./icons/icons8-facebook.svg" alt="Facebook" />
         </a>
         <a href="https://www.instagram.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-          <img src="./icons/instagram.svg" alt="Instagram" />
+          <img src="./icons/icons8-instagram.svg" alt="Instagram" />
         </a>
         <a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-          <img src="./icons/youtube.svg" alt="YouTube" />
+          <img src="./icons/icons8-youtube.svg" alt="YouTube" />
         </a>
       </div>
     </div>
