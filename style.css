@@ -535,6 +535,40 @@ max-width: 1200px;
   color: #a7f3d0;
 }
 
+
+.hero {
+  background: url('./images/platter.jpeg') center center / cover no-repeat;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 150px;
+    height: 40vh; /* Reduce height on mobile */
+    padding: 1.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+
+
 /* === RESPONSIVE FOR MOBILE === */
 @media (max-width: 768px) {
   .bottom-sections {
